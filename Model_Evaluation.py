@@ -1,3 +1,7 @@
+'''
+This code is for evaluate the model. Run it after finetuning.
+'''
+
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 import json
 from datasets import Dataset
