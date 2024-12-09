@@ -1,4 +1,6 @@
-
+'''
+This code is for finetuning the model. Run it after downloading the pretrain model and dataset.
+'''
 import os
 from datasets import Dataset
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, Trainer, TrainingArguments
